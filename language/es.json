@@ -1,0 +1,59 @@
+{
+    "header": {
+        "about-me": "Sobre mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "contact": "Contacto",
+        "button-language": "EN"
+    },
+    "hero": {
+        "greeting": "HOLA, SOY",
+        "subtitle": "Desarrollador de Software",
+        "hero-description": "Construyendo experiencias digitales modernas con codigo limpio y soluciones creativas. Apasionado por transformar ideas en software impactante.",
+        "primary-button": "Ver Proyectos",
+        "secondary-button": "Curriculum"
+    },
+    "about-me-section": {
+        "title": "SOBRE Mí",
+        "subtitle": "Construyendo software con precisión y propósito.",
+        "first-p": "Soy desarrollador de software full-stack, enfocado en construir aplicaciones completas, desde la base de datos hasta la experiencia del usuario.",
+        "second-p": "Me interesa diseñar soluciones bien estructuradas, escalables y fáciles de mantener, prestando especial atención a la calidad del código y a la arquitectura de cada proyecto.",
+        "third-p": "Actualmente me encuentro finalizando el proyecto integrador de la Tecnicatura en Programación en la Universidad Tecnológica Nacional, donde aplico estos principios en desarrollos reales.",
+        "first-card": "Construyendo",
+        "first-card-text": "Aplicaciones web con React, Next.js y TypeScript.",
+        "second-card": "Explorando",
+        "second-card-text": "Herramientas de IA y Server-side rendering",
+        "third-card": "Combustible",
+        "third-card-text": "Café cargado y mucha curiosidad."
+    },
+    "portfolio": {
+        "title": "Portafolio",
+        "subtitle": "Proyectos Destacados",
+        "first-card-title": "Madison Store",
+        "first-card-description": "App web full-stack tipo e-commerce enfocada en autenticación de usuarios y gestión de carrito. Permite registro, login y navegación de productos con una API en Node.js y un frontend en React, aplicando validaciones y buenas prácticas de seguridad en un MVP profesional de portfolio.",
+        "second-card-title": "Panel de Control Cloud",
+        "second-card-description": "Pagina web para WIT solutions group, una empresa proveedora de servicios IT en Estados Unidos. El objetivo de la pagina es mostrar los servicios que ofrece la empresa, que es una empresa de confianza y que el cliente pueda contactar con ellos.",
+        "third-card-title": "Panel de Control Cloud",
+        "third-card-description": "Mi primer proyecto web, una landing page para una cafetería ficticia. El objetivo fue aplicar los conocimientos iniciales de desarrollo web, trabajando con HTML, CSS, Sass y Bootstrap. El diseño es responsive y presenta secciones típicas de una página comercial, como menú, ubicación y formulario de contacto. Aprendí a estructurar contenido semántico, usar un framework CSS y organizar estilos con preprocesadores."
+    },
+    "skills": {
+        "title": "Capacidades",
+        "subtitle": "Habilidades y Tecnologias",
+        "card-title": "Base de Datos"
+    },
+    "contact": {
+        "title": "CONTACTO",
+        "subtitle": "Construyamos algo memorable.",
+        "status": "Abierto a freelance y oportunidades full-time.",
+        "name-label": "Nombre",
+        "name-input": "Tu nombre",
+        "mail-label": "Email",
+        "mail-input": "tu@email.com",
+        "message-label": "Mensaje",
+        "message-input": "Cuentame",
+        "send-button": "Enviar Mensaje"
+    },
+    "footer":{
+        "copy":"Hecho con intención."
+    }
+}

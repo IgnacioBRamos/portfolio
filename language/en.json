@@ -1,0 +1,59 @@
+{
+    "header": {
+        "about-me": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact",
+        "button-language": "ES"
+    },
+    "hero": {
+        "greeting": "HELLO, I'M",
+        "subtitle": "Software Developer",
+        "hero-description": "Building modern digital experiences with clean code and creative solutions. Passionate about transforming ideas into impactful software.",
+        "primary-button": "View Projects",
+        "secondary-button": "Resume"
+    },
+    "about-me-section": {
+        "title": "ABOUT ME",
+        "subtitle": "Engineering software with precision and purpose.",
+        "first-p": "I’m a full-stack software developer focused on building complete applications, from the database layer to the user experience.",
+        "second-p": "I’m interested in designing well-structured, scalable, and maintainable solutions, with special attention to code quality and the architecture of each project.",
+        "third-p": "I’m currently completing the capstone project for the Programming Technician degree at the Universidad Tecnológica Nacional, where I apply these principles in real-world developments.",
+        "first-card": "Building",
+        "first-card-text": "Web apps with React, Next.js & TypeScript.",
+        "second-card": "Exploring",
+        "second-card-text": "AI tooling & Server-side rendering",
+        "third-card": "Fueled by",
+        "third-card-text": "Strong coffee and curiosity."
+    },
+    "portfolio": {
+        "title": "PORTFOLIO",
+        "subtitle": "Featured Projects",
+        "first-card-title": "Madison Store",
+        "first-card-description": "Full-stack e-commerce style web app focused on user authentication and cart management. It includes registration, login, and product browsing, powered by a Node.js API and a React frontend, applying validations and basic security best practices as a professional portfolio MVP.",
+        "second-card-title": "WIT Solutions Group",
+        "second-card-description": "Website for WIT Solutions Group, an IT services provider based in the United States. The goal of the site is to showcase the company’s services, convey trust and professionalism, and make it easy for clients to get in contact.",
+        "third-card-title": "Coffee Shop",
+        "third-card-description": "My first web project, a landing page for a fictional coffee shop. The goal was to apply foundational web development knowledge using HTML, CSS, Sass, and Bootstrap. The design is responsive and includes typical business sections such as a menu, location, and contact form. I learned how to structure semantic content, use a CSS framework, and organize styles with preprocessors."
+    },
+    "skills": {
+        "title": "CAPABILITIES",
+        "subtitle": "Skills & Technologies",
+        "card-title": "Databases"
+    },
+    "contact": {
+        "title": "CONTACT",
+        "subtitle": "Let's build something remarkable.",
+        "status": "Open to freelance & full-time opportunities.",
+        "name-label": "Name",
+        "name-input": "Your name",
+        "mail-label": "Mail",
+        "mail-input": "your@domain.com",
+        "message-label": "Message",
+        "message-input": "Tell me",
+        "send-button": "Send Message"
+    },
+    "footer":{
+        "copy":"Crafted with intention."
+    }
+}
