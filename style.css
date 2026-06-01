@@ -917,6 +917,35 @@ footer h6, footer p {
 }
 
 
+
+.gallery-item{
+    position: relative;
+}
+
+
+
+
+
+
+.galery-img-overlay{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #051024ab;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+
+.gallery-item:hover .galery-img-overlay{
+    opacity: 1;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
     .galery-container {
       margin: 4rem auto;
