@@ -13,9 +13,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Raleway:wght@100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="/img/profile-favicon.png">
+    <link rel="icon" type="image/png" href="/img//profile-favicon.webp">
     <title>Portfolio | IBR</title>
 </head>
 
@@ -139,7 +142,7 @@
                         <div class="about-cards-container">
                             <div class="card-about-description">
                                 <i>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" class="lucide lucide-code-xml-icon lucide-code-xml">
                                         <path d="m18 16 4-4-4-4" />
@@ -155,7 +158,7 @@
                             </div>
                             <div class="card-about-description">
                                 <i>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket">
                                         <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
@@ -175,7 +178,7 @@
                             <div class="card-about-description">
 
                                 <i>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" class="lucide lucide-coffee-icon lucide-coffee">
                                         <path d="M10 2v2" />
@@ -201,15 +204,15 @@
             <hgroup>
                 <div class="title-decoration">
                     <hr class="line-decoration">
-                    <h2 class="section-about-title" data-section="portfolio" data-value="title">Capacidades</h2>
+                    <h2 class="section-about-title" data-section="portfolio" data-value="title">Proyectos</h2>
                 </div>
-                <p class="about-subtitle" data-section="portfolio" data-value="subtitle">Habilidades y Tecnologias</p>
+                <p class="about-subtitle" data-section="portfolio" data-value="subtitle">Lo que realice</p>
             </hgroup>
             <div class="cards_layout">
                 <article class="card">
                     <div class="card__image">
                         <picture>
-                            <img src="/img/madison-store.jpg" style="filter: brightness(80%);"
+                            <img src="/img/madison-store.webp" style="filter: brightness(80%);"
                                 alt="picture preview from Madison store project">
                         </picture>
                     </div>
@@ -329,7 +332,7 @@
                             <div class="card_icons">
 
                                 <a href="https://github.com/IgnacioBRamos/Coffee-Shop" target="_blank"
-                                    aria-label="Ver repositorio en github">
+                                    aria-label="Ver repositorio en github" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" class="lucide lucide-github w-5 h-5" aria-hidden="true">
@@ -376,6 +379,53 @@
 
             </div>
         </section>
+
+        <!-- Galery -->
+        <section id="Galery-section" class="galery-container">
+            
+            <div class="title-decoration">
+                <hr class="line-decoration">
+                <h2 class="section-about-title" data-section="portfolio" data-value="title">Galeria</h2>
+            </div>
+            
+            <div class="card__image-img-gallery-container">
+                <a href="/img/madison-store-gallery.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/madison-store.webp"  alt="picture preview from Madison store project">
+                </a>
+                <a href="/img/gallery/madison-store-product-gallery.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/gallery/madison-store-product.webp"  alt="picture preview from Madison store project">
+                </a>
+                <a href="/img/gallery/madison-store-login-gallery.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/gallery/madison-store-login.webp"  alt="picture preview from Madison store project">
+                </a>
+            </div>
+            <div class="card__image-img-gallery-container">
+                <a href="/img/WIT-project.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/WIT-project.webp"  alt="picture preview from Madison store project">
+                </a>
+                <a href="/img/gallery/WIT-services-gallery.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/gallery/WIT-services.webp"  alt="picture preview from Madison store project">
+                </a>
+                <a href="/img/gallery/WIT-benefits-gallery.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/gallery/WIT-benefits.webp"  alt="picture preview from Madison store project">
+                </a>
+            </div>
+            <div class="card__image-img-gallery-container">
+                <a href="/img/proyectoportfolio-2.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/proyectoportfolio-2.webp"  alt="picture preview from Madison store project">
+                </a>
+                <a href="/img/gallery/coffe-shop-menu-gallery.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/gallery/coffe-shop-menu.webp"  alt="picture preview from Madison store project">
+                </a>
+                <a href="/img/gallery/coffe-shop-shop-gallery.webp" class="glightbox" data-glightbox="image" data-gallery="gallery" data-width="1440px">
+                    <img src="/img/gallery/coffe-shop-shop.webp"  alt="picture preview from Madison store project">
+                </a>
+            </div>
+        
+
+        </section>
+
+
         <!-- Stack Section -->
         <section id="Stack" class="stack_background">
             <div class="stack_container">
@@ -690,6 +740,7 @@
     </footer>
 
 </body>
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 <script src="/index.js"></script>
 
 </html>

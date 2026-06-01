@@ -125,3 +125,20 @@ async function handlesubmit(event) {
     formButton.innerHTML = originalButtonContent;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+const lightbox = GLightbox({
+  selector: '.glightbox',
+  touchNavigation: true,
+  loop: true,
+  
+});
